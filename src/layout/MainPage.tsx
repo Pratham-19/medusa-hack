@@ -2,18 +2,16 @@
 import ProductList from "../components/ProductList";
 import Hero from "../components/hero";
 import Footer from "../components/Footer";
+import Header from "../components/header/Header";
+import FirstPage from "../components/firstPage/FirstPage";
 import "./MainPage.css";
 import { BiStore } from "react-icons/bi";
 
 function MainPage(): JSX.Element {
   return (
     <>
-      <nav className="navigation-title">
-        <h3>
-          <BiStore />
-            Medusa Store
-        </h3>
-      </nav>
+      <Header/>
+      <FirstPage/>
       <Hero/>
       <ProductList />
       <Footer/>

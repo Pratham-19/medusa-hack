@@ -24,10 +24,10 @@ function ProductList(): JSX.Element {
   return (
     <>
       <div className="container text-center text-light">
-        <h4>
+        {/* <h4>
           <MdProductionQuantityLimits />
           Our Products
-        </h4>
+        </h4> */}
       </div>
 
       <div className="wrapper">
